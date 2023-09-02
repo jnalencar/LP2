@@ -3,8 +3,6 @@
  * desses números.
  */
 
-package lp20232;
-
 import java.util.Scanner;
 
 public class Ex2Lista {
