@@ -4,8 +4,6 @@
  * ímpares informados.
  */
 
-package lp20232;
-
 import java.util.Scanner;
 
 public class Ex4Lista {
