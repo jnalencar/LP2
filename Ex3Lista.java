@@ -3,8 +3,6 @@
  * é o maior dos números lidos.
  */
 
-package lp20232;
-
 import java.util.Scanner;
 
 public class Ex3Lista {
