@@ -6,8 +6,6 @@
  * concedido.
  */
 
-package lp20232;
-
 import java.util.Scanner;
 
 public class Ex1Lista {
