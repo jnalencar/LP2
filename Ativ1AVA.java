@@ -6,8 +6,6 @@
  * números lidos.
  */
 
-package lp20232;
-
 import java.util.Scanner;
 
 public class Ativ1AVA {
