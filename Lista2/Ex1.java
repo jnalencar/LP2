@@ -1,8 +1,11 @@
 package Lista2;
 
+import java.text.DecimalFormat;
+
 public class Ex1 {
     private double raio;
     private String cor;
+    DecimalFormat decimalFormat =  new DecimalFormat("#0.00");
 
     public Ex1 () {
         this.raio = 1;
@@ -35,6 +38,7 @@ public class Ex1 {
     }
 
     public String dadosCirculo() {
-        return "Raio: " + this.raio + "\nCor: " + this.cor + "\nArea: " + this.getArea()+"\n";
+        
+        return "Raio: " + this.raio + "\nCor: " + this.cor + "\nArea: " + decimalFormat.format(this.getArea())+"\n";
     }
 }
