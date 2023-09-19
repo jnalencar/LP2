@@ -1,3 +1,4 @@
+package Lista1;
 /*
  * 3. Faça um programa que leia 15 números inteiros e exiba na tela qual
  * é o maior dos números lidos.
@@ -5,7 +6,7 @@
 
 import java.util.Scanner;
 
-public class Ex3Lista {
+public class Ex3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

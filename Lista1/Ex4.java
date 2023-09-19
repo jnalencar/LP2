@@ -1,3 +1,4 @@
+package Lista1;
 /* 
  * 4. Faça um programa que, enquanto o usuário desejar, leia números
  * inteiros. Ao final, o programa deve exibir a quantidade de números pares e
@@ -6,7 +7,7 @@
 
 import java.util.Scanner;
 
-public class Ex4Lista {
+public class Ex4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

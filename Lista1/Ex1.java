@@ -1,3 +1,4 @@
+package Lista1;
 /*
  * 1. A prefeitura do Rio de Janeiro abriu uma linha de crédito para os seus
  * funcionários. O valor máximo da prestação não poderá ultrapassar 30% do
@@ -8,7 +9,7 @@
 
 import java.util.Scanner;
 
-public class Ex1Lista {
+public class Ex1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

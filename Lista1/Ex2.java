@@ -1,3 +1,4 @@
+package Lista1;
 /*
  * 2. Faça um programa que leia 10 números inteiros e calcule a média
  * desses números.
@@ -5,7 +6,7 @@
 
 import java.util.Scanner;
 
-public class Ex2Lista {
+public class Ex2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
