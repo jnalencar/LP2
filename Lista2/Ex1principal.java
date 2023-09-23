@@ -1,6 +1,6 @@
 package Lista2;
 
-public class principal {
+public class Ex1principal {
     public static void main(String[] args) {
         Ex1 circulo1 = new Ex1();
         Ex1 circulo2 = new Ex1(2, "azul");
