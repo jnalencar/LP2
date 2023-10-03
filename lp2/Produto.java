@@ -39,7 +39,7 @@ public class Produto {
 	}
 
 	public String toString() {
-		return "Produto [codigo=" + codigo + ", nome=" + nome + ", valor=" + valor + "]";
+		return "\nCodigo: " + codigo + "\nNome: " + nome + "\nValor: " + valor;
 	}
 
 	

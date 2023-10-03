@@ -1,8 +1,8 @@
-package aula2909;
+package lp2;
 
 import java.util.Scanner;
 
-public class principal {
+public class AulaArray {
 	public static void main(String[] args) {
 		Scanner rc = new Scanner(System.in);
 		System.out.println("Insira a quantidade de alunos na turma: ");
