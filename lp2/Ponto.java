@@ -1,4 +1,4 @@
-package lp2;
+
 
 public class Ponto {
     private int x;

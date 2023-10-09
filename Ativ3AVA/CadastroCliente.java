@@ -1,4 +1,4 @@
-package lp2;
+package Ativ3AVA;
 
 import java.util.Scanner;
 
@@ -15,14 +15,13 @@ public class CadastroCliente {
         System.out.print("Informe telefone do cliente: ");
         novoCliente.setTelefone(rc.next());
         System.out.println("");
-        rc.close();
         return novoCliente;
 	}
 	
-	public static boolean buscaCliente(String nome, Cliente[] listaClientes) {
+	public static boolean buscaCliente(String nome, Cliente[] listaClientes, int qtdClientes) {
 		boolean j = false;
-		for(int i = 0; i < listaClientes.length; i++) {
-			if(listaClientes[i].getNome().equals(nome)) { //CRIAR O EQUALS
+		for(int i = 0; i < qtdClientes; i++) {
+			if(listaClientes[i].comparaNome(nome)) { //CRIAR O EQUALS
 				System.out.println(listaClientes[i]);
 				j = true;
 				
@@ -60,7 +59,7 @@ public class CadastroCliente {
         	if(opcao == 2) {
         		System.out.print("Digite o nome do cliente que deseja buscar: ");
         		String nomeCliente = rc.next();
-        		if(!buscaCliente(nomeCliente, listaClientes)) {
+        		if(!buscaCliente(nomeCliente, listaClientes, qtdClientes)) {
         			System.out.println("Nenhum cliente com o nome "+nomeCliente+" foi encontrado.");
         		}
         	}

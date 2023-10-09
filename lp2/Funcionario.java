@@ -1,4 +1,4 @@
-package lp2;
+
 
 public class Funcionario {
 	private String nome;

@@ -1,4 +1,4 @@
-package lp2;
+package Ativ3AVA;
 
 public class Cliente {
     int codigo;
@@ -50,5 +50,9 @@ public class Cliente {
 
     public String toString() {
         return "\nCodigo: " + codigo + "\nNome: " + nome + "\nCPF: " + cpf + "\nTelefone: " + telefone;
+    }
+
+    public boolean comparaNome(String nome) {
+        return this.nome.equals(nome);
     }
 }

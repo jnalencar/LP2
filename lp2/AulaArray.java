@@ -1,4 +1,4 @@
-package lp2;
+
 
 import java.util.Scanner;
 

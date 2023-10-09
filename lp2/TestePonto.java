@@ -1,4 +1,4 @@
-package lp2;
+
 
 public class TestePonto {
     public static void main(String[] args) {

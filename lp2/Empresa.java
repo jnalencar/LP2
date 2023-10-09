@@ -1,4 +1,3 @@
-package lp2;
 
 import java.text.DecimalFormat;
 
