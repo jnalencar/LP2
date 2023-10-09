@@ -3,8 +3,7 @@ package Ativ3AVA;
 import java.util.Scanner;
 
 public class CadastroCliente {
-	public static Cliente cadastraClientes() {
-		Scanner rc = new Scanner(System.in);
+	public static Cliente cadastraClientes(Scanner rc) {
         Cliente novoCliente = new Cliente();
         System.out.print("Informe código do cliente: ");
         novoCliente.setCodigo(rc.nextInt());
@@ -50,7 +49,7 @@ public class CadastroCliente {
         int qtdClientes = 0;
         while(opcao != 4) {
         	if(opcao == 1) {
-        		Cliente novoCliente = cadastraClientes();
+        		Cliente novoCliente = cadastraClientes(rc);
         		listaClientes[qtdClientes] = novoCliente;
         		qtdClientes = qtdClientes + 1;
         		//Cliente[] listaNovosClientes = cadastraClientes();

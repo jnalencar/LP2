@@ -15,5 +15,6 @@ public class AulaArray {
 			total+=notas[i];
 		}
 		System.out.println("A media da turma é de: "+total/quant);
+		rc.close();	
 	}
 }
